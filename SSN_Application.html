@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ssn-application</title>
+    <link rel="stylesheet" href="SSN_Style.css">
+</head>
+<body>
+
+<form method = "GET" id = "mySSNform">
+    <div id = headers>
+        <strong>SECURITY ADMINISTRATION Application FOR a Social Security Card</strong>
+    </div>
+    <div id = "smallHeaders"><strong>From Approved OMB No. 0960-0066</strong></div>
+
+
+
+    <div id = "table">
+
+        <div id = "row">
+            <div id = "colIndex1"> <strong>1</strong></div>
+            <div id = "inlineBlock">
+                <div id = "borders1Name">
+                    <strong>NAME</strong><br />TO BE SHOWN ON CARD
+                </div>
+                <div id = "borders">
+                    <input type="text" name ="First Name" id = "currentFirstName" placeholder="First">
+                </div>
+                <div id="borders">
+                    <input type="text" name ="Full Middle Name" id = "currentMiddleName" placeholder="Full Middle Name">
+                </div>
+                <div id = "borders">
+                    <input type="text" name ="Last" id = "currentLastName" placeholder="Last">
+                </div>
+            </div>
+
+            <div id = "inlineBlock">
+                <div id = "borders1Birth">
+                    FULL NAME AT BIRTH<br />IF OTHER THAN ABOVE
+                </div>
+                <div id = "borders2">
+                    <input type="text" name ="First Name" id = "birthFirstName" placeholder="First">
+                </div>
+                <div id = "borders2">
+                    <input type="text" name ="Full Middle Name" id = "birthMiddleName" placeholder="Full Middle Name">
+                </div>
+                <div id = "borders2">
+                    <input type="text" name ="Last" id = "birthLastName" placeholder="Last">
+                </div>
+            </div>
+
+            <div id = "inlineBlock">
+                <div id = "borders1other">
+                    OTHER NAMES USED
+                </div>
+                <div id = "borders2">
+                    <input type="text" name ="First Name" id = "usedFirstName" placeholder="First">
+                </div>
+                <div id = "borders2">
+                    <input type="text" name ="Full Middle Name" id = "usedMiddleName" placeholder="Full Middle Name">
+                </div>
+                <div id = "borders2">
+                    <input type="text" name ="Last" id = "usedLastName" placeholder="Last">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id = "row">
+            <div id = "colIndex2"><strong>2</strong></div>
+            <div id = "inlineBlock">
+                <div id = "borders2tag">
+                    Social Security number previously assigned to the person &nbsp;&nbsp; listed in item 1
+                </div>
+                <div id = "borders2field">
+                    <input type="text" name ="SSN" id = "PrevSSN1">
+                    <input type="text" name ="SSN" id = "PrevSSN2">
+                    <input type="text" name ="SSN" id = "PrevSSN3">
+                    <lable>-</lable>
+                    <input type="text" name ="SSN" id = "PrevSSN4">
+                    <input type="text" name ="SSN" id = "PrevSSN5">
+                    <lable>-</lable>
+                    <input type="text" name ="SSN" id = "PrevSSN6">
+                    <input type="text" name ="SSN" id = "PrevSSN7">
+                    <input type="text" name ="SSN" id = "PrevSSN8">
+                    <input type="text" name ="SSN" id = "PrevSSN9">
+                </div>
+            </div>
+        </div>
+
+
+        <div id = "row">
+            <div id = "row3">
+                <div id = "colIndex3">
+                    <strong>3</strong>
+                </div>
+                <div id = "inlineBlock">
+                    <div id = "borders3tag">
+                        <strong>PLACE <br />OF BIRTH</strong>
+                    </div>
+                    <div id = "bordersPOB">
+                        <input id = "fieldPOB">
+                    </div>
+                    <div id = "officeUse">
+                        Ofiice Use Only
+                    </div>
+
+                </div>
+                <div id = "inlineBlock">
+                    <div id = "field3DNA">
+                        (Do Not Abbreviate)
+                    </div>
+                    <div id = "field3City">
+                        City
+                    </div>
+                    <div id = "field3State">
+                        State or Foreign Country
+                    </div>
+                    <div id = "field3FCI">
+                        FCI
+                    </div>
+                </div>
+            </div>
+
+            <div id = "inlineBlock">
+                <div id = "colIndex4">
+                    <strong>4</strong>
+                </div>
+
+                <div id = "borders4DOB">
+                    <strong>DATE OF BIRTH</strong>
+                </div>
+
+                <div id = "field4">
+                    <input id = "field4MMDDYY">
+                </div>
+                <div id = "borders4MMDDYY">MM/DD/YY</div>
+            </div>
+        </div>
+
+
+
+
+        <div id = "row">
+            <div id = "colIndex5">
+                <strong>5</strong>
+            </div>
+            <div id = "inlineBlock">
+                <div id = "borders5tag">
+                    <strong>CITIZENSHIP</strong><br />(Check One)
+                </div>
+                <div id = "borders5field">
+                    <li>
+                        <div id = "USCitizen">
+                            <input type = "checkbox">U.S. Citizen
+                        </div>
+                        <div id = "borders5LA">
+                            <div id = "LegalAlien">Legal Alien Allowed To Work</div>
+                            <input type = "checkbox">
+                        </div>
+                        <div id = "borders5LNA">
+                            <div id = "LegalNotAllowed">Legal Alient <strong>Not</strong> Allowed To Work(See Instructions On Page 3)</div>
+                            <input type="checkbox">
+                        </div>
+                        <div id = "OtherCitizen">Other (See Instructions On Page 3)</div>
+                        <input type="checkbox">
+                    </li>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id = "row">
+            <div id = "colIndex6">
+                <strong>6</strong>
+            </div>
+            <div id = "borders6container">
+                <div id = "inlineBlock">
+                    <div id = "borders6tag">
+                        <div id = "textContainer6">
+                            <strong>ETHNICITY</strong><br />Are You Hispanic or Latino? (Your Response is Voluntary)
+                        </div>
+                    </div>
+                </div>
+                <div id = "yes6">
+                    <label for="choose"></label>
+                    <input type="radio" name="yes" id="choose">Yes
+                </div>
+                <div id = "no6">
+                    <label for="yes"></label>
+                    <input type="radio" name="yes" id="yes">No
+                </div>
+            </div>
+
+            <div id = "colIndex6">
+                <strong>7</strong>
+            </div>
+            <div id = "inlineBlock">
+                <div id = "borders7tag">
+                    <strong> RACE </strong> <br />Select One or More <br />(Your Response is Voluntary)
+                </div>
+                <div id = "field7races">
+                    <div id = "racesContainer7">
+                        <div id = "nativeHawaiian">
+                            <label for="NH"></label>
+                            <input type="radio" name = "races" id = "NH">Native Hawaiian
+                        </div>
+                        <div id = "americanIndian">
+                            <label for="AI"></label>
+                            <input type = "radio" name = "races" id = "AI">American Indian
+                        </div>
+                        <div id = "otherPacific">
+
+                            <div id = "radio7OP">
+                                <div id = container7OP>
+                                    Other Pacific Islander
+                                </div>
+                                <label for="OP"></label>
+                                <input type="radio" name = "races" id = "OP">
+                            </div>
+                        </div>
+                        <div id = "alaska">
+                            <label for="AN"></label>
+                            <input type = "radio" name = "races" id = "AN">Alaska Native
+                        </div>
+                        <div id = "black">
+                            <label for="BA"></label>
+                            <input type = "radio" name = "races" id = "BA">Black/African American
+                        </div>
+
+                        <div id = "white">
+                            <label for="white"></label>
+                            <input type = "radio" name = "races" id = "white">White
+                        </div>
+                        <div id = "asian">
+                            <label for="asians"></label>
+                            <input type = "radio" name = "races" id = "asian">Asian
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id = "row">
+            <div id = "colIndex8"><strong>8</strong></div>
+            <div id = "inlineBlock">
+                <div id = "borders8tag">
+                    <strong>SEX</strong>
+                </div>
+                <div id = field8sex>
+                    <div id = "radio8male">
+                        <label for = "male"></label>
+                        <input type="radio" name = "sex" id = "male">Male
+                    </div>
+                    <div id = "radio8female">
+                        <label for = "female"></label>
+                        <input type="radio" name = "sex" id = "female">Female
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="row">
+            <div id = "colIndex9"><strong>9</strong></div>
+            <div id = "inlineBlock">
+                <div id = "borders9tagA">
+                    <strong>A. PARENT/MOTHER'S NAME AT HER BIRTH</strong>
+                </div>
+                <input type="text" name ="First Name" id = "motherFirst" placeholder="First" size = "32">
+                <input type="text" name ="Full Middle Name" id = "motherMiddle" placeholder="Full Middle Name" size = "32">
+                <input type="text" name ="Last" id = "motherLast" placeholder="Last" size = "32">
+            </div>
+            <div id = "inlineBlock">
+                <div id = "borders9tagB">
+                    <strong>B. PARENT/MOTHER'S SOCIAL <br />SECURITY NUMBER</strong>(See instructions for 9 B on Page 3)
+                </div>
+                <div id = "borders9B">
+                    <input type="text" name ="SSN" id = "ParentSSN1">
+                    <input type="text" name ="SSN" id = "ParentSSN2">
+                    <input type="text" name ="SSN" id = "ParentSSN3">
+                    <lable>-</lable>
+                    <input type="text" name ="SSN" id = "ParentSSN4">
+                    <input type="text" name ="SSN" id = "ParentSSN5">
+                    <lable>-</lable>
+                    <input type="text" name ="SSN" id = "ParentSSN6">
+                    <input type="text" name ="SSN" id = "ParentSSN7">
+                    <input type="text" name ="SSN" id = "ParentSSN8">
+                    <input type="text" name ="SSN" id = "ParentSSN9">
+                    <input type="radio" id = "radioUnknown">Unknown
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <div id="row">
+            <div id = "colIndex9"><strong>10</strong></div>
+            <div id = "inlineBlock">
+                <div id = "borders9tagA">
+                    <strong>A. PARENT/FATHER'S NAME AT HER BIRTH</strong>
+                </div>
+                <input type="text" name ="First Name" id = "motherFirst" placeholder="First">
+                <input type="text" name ="Full Middle Name" id = "motherMiddle" placeholder="Full Middle Name">
+                <input type="text" name ="Last" id = "motherLast" placeholder="Last">
+            </div>
+            <div id = "inlineBlock">
+                <div id = "borders9tagB">
+                    <strong>B. PARENT/FATHER'S SOCIAL <br />SECURITY NUMBER</strong>(See instructions for 10 B on Page 3)
+                </div>
+                <div id = "borders9B">
+                    <input type="text" name ="SSN" id = "ParentSSN1">
+                    <input type="text" name ="SSN" id = "ParentSSN2">
+                    <input type="text" name ="SSN" id = "ParentSSN3">
+                    <lable>-</lable>
+                    <input type="text" name ="SSN" id = "ParentSSN4">
+                    <input type="text" name ="SSN" id = "ParentSSN5">
+                    <lable>-</lable>
+                    <input type="text" name ="SSN" id = "ParentSSN6">
+                    <input type="text" name ="SSN" id = "ParentSSN7">
+                    <input type="text" name ="SSN" id = "ParentSSN8">
+                    <input type="text" name ="SSN" id = "ParentSSN9">
+                    <input type="radio" id = "radioUnknown">Unknown
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div id = "row">
+        <div id = "colIndex11"><strong>11</strong></div>
+        <div id = "inlineBlock">
+            <div id = "borders11tag">
+                Has the person listed in item 1 or anyone acting on his/her behalf ever filed for or received a Social Security number card before?
+            </div>
+        </div>
+        <div id = "inlineBlock">
+            <div id = "largeContainer11">
+                <div id = "container11">
+                    <label for = "yes11"></label>
+                    <input type="radio" name = "choose" id = "yes11" > Yes (if "yes" answer questions 12-13)
+                </div>
+                <div id = "container11">
+                    <label for = "no11"></label>
+                    <input type="radio" name = "choose" id = "no11"> No
+                </div>
+                <div id = "container11">
+                    <label for = "DK"></label>
+                    <input type="radio" name = "choose" id = "DK"> Don't Know (If "don't know", skip to question 14.)
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id = "row">
+        <div id = "colIndex12"><strong>12</strong></div>
+        <div id = "inlineBlock">
+            <div id = "borders12tag">
+                <div id = "textContainer12">
+                    Name shown on the most recent Social Security card issued for the person listed in item 1
+                </div>
+            </div>
+            <div id = field12>
+                <input type="text" name ="First Name" id = "field12First" placeholder="First">
+                <input type="text" name ="Full Middle Name" id = "field12Middle" placeholder="Full Middle Name">
+                <input type="text" name ="Last" id = "field12Last" placeholder="Last">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div id = "row">
+        <div id = "colIndex13"><strong>13</strong></div>
+        <div id = "inlineBlock">
+            <div id = "borders13tag">
+                <div id = "textContainer13">
+                    Enter any different date of birth if used on an earlier application for a card
+                </div>
+            </div>
+            <div id = container13>
+                <div id = "field13">
+                    <input id = "field13MMDDYY">
+                    <div id = "borders13MMDDYY">MM/DD/YY</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div id = "row">
+        <div id = "colIndex14">
+            <strong>14</strong>
+        </div>
+        <div id = "borders14container">
+            <div id = "inlineBlock">
+                <div id = "borders14tag">
+                    <div id = "textContainer14">
+                        <strong>TODAY'S <br />DATE</strong>
+                    </div>
+                </div>
+                <div id = container14>
+                    <div id = "field14">
+                        <input id = "field14MMDDYY">
+                        <div id = "borders14MMDDYY">MM/DD/YY</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id = "colIndex15">
+            <strong>15</strong>
+        </div>
+        <div id = "inlineBlock">
+            <div id = "borders15tag">
+                <strong> DAYTIME PHONE NUMBER </strong>
+            </div>
+            <div id = container15>
+                <div id = "field15">
+                    <input id = "field15Area">
+                    <div id = "borders15Area">Area code </div>
+                    <div id = "borders15Area"> Number</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div id = "row">
+        <div id = "colIndex16">
+            <strong>16</strong>
+        </div>
+        <div id = "inlineBlock">
+            <div id = "borders16tag">
+                <strong>MAILING ADDRESS</strong><br /><br />(Do Not Abbreviate)
+            </div>
+            <div id = "street16">
+                Street Address, Apt. No., PO Box, Rural Route No.
+                <input id = "field16street">
+            </div>
+            <div id = "cityStateZip16">
+                <div id = "city16">City</div>
+                <div id = "state16">State/Foreign Country</div>
+                <div id = "zipCode16">Zip Code</div>
+                <input id = "field16city">
+                <input id = "field16state">
+                <input id = "field16zip">
+            </div>
+        </div>
+
+
+
+
+        <div id = "row">
+            <div id = "colIndex17">
+                <strong>17</strong>
+            </div>
+            <div id = "borders17tag">
+                <strong>I declare under penalty of perjury that I have examined all the information on this form,
+                    and on any accompanying statements or forms, and it is true and correct to the best to my knowledge.</strong>
+            </div>
+            <div id = "signature17"><strong>YOUR SIGNATURE</strong>
+                <input id = "eSignature">
+            </div>
+
+            <div id = "colIndex18">
+                <strong>18</strong>
+            </div>
+            <div id = "borders18tag">
+                <strong>YOUR RELATIONSHIP TO THE PERSON IN ITEM 1 IS:</strong>
+                <div id = "field18">
+                    <li>
+                        <div id = "self18">
+                            <label for = "self"></label>
+                            <input type = "radio" name = "18" id = "self">Self
+                        </div>
+                        <div id = "natural18container">
+                            <label for = "NOAP"></label>
+                            <input type = "radio" name = "18" id = "NOAP">Natural Or Adoptive Parent
+                        </div>
+                        <div id = "legal18">
+                            <label for = "LG"></label>
+                            <input type="radio" name = "18" id = "LG">Legal Guardian
+                        </div>
+                        <div id = "other18">
+                            <label for = "other"></label>
+                            <input type="radio" name = "18" id = "other">Other
+                        </div>
+                    </li>
+                </div>
+                <div id = "specify18">
+                    Specify
+                    <input id="specifyField">
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="row">
+            <div id = "DNWBTL19">
+                DO NOT WRITE BELOW THIS LINE (FOR SSA USE ONLY)
+            </div>
+            <div id = "NPN">NPN</div>
+            <div id = "DOC">DOC</div>
+            <div id = "NTI">NTI</div>
+            <div id = "CAN">CAN</div>
+            <div id = "ITV">ITV</div>
+
+            <div id = "PBC">PBC</div>
+            <div id = "EVI">EVI</div>
+            <div id = "EVA">EVA</div>
+            <div id = "EVC">EVC</div>
+            <div id = "PRA">PRA</div>
+            <div id = "NWR">NWR</div>
+            <div id = "DNR">DNR</div>
+            <div id = "UNIT">UNIT</div>
+
+            <input id = "evidence" placeholder="EVIDENCE SUBMITTED">
+
+            <div id = "signature19">
+                <div id = "temp">
+                    SIGNATURE AND TITLE OF EMPLOYEE(S) REVIEWING EVIDENCE AND/OR CONDUCTING INTERVIEW
+                </div>
+                <input id = "signatureDate19">
+                <div id = "date1">Date</div>
+            </div>
+
+            <div id = "signature2">
+
+                <input id = "signatureDate19">
+                <div id = "DCL">DCL</div>
+                <div id = "date2">Date</div>
+            </div>
+        </div>
+
+
+        <div id = "row">
+            <div id = lastSub>
+                From <strong>SS-5</strong> (08-2011) ef (08-2011)
+            </div>
+            <div id = lastSub>
+                Destroy Prior Editions
+            </div>
+            <div id = "lastSub">
+                Page 5
+            </div>
+        </div>
+
+        <div id = "row">
+            <button type = "submit" form = "mySSNform" value = "Submit" id = "submitBtn">Submit</button>
+
+        </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,1374 @@
+#table{
+    display: table;
+    width: auto;
+    background-color: white;
+    width: 100%;
+}
+
+#headers{
+    float: left;
+    width: 42%;
+    padding-bottom: 0px;
+}
+
+#headers strong{
+    font-size: 28px;
+}
+
+#smallHeaders{
+    float: left;
+    width: 9%;
+    font-size: 13px;
+    padding-bottom: 0px;
+    padding-top: 33px;
+    margin-left: 500px;
+}
+
+#row {
+    float: left;
+    display: inline-block;
+    width: 100%;
+    clear: both;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+#inlineBlock{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+#colIndex1{
+    float: left; /* fix for  buggy browsers */
+    display: table-column;
+    width: 4%;
+    background-color: #ccc;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size: 24px;
+    text-align: center;
+    height: 119px;
+    margin: 0px;
+    padding: 0px;
+    border-top: 4px solid black;
+    line-height: 110px;
+}
+
+#currentFirstName, #currentMiddleName, #currentLastName, #birthFirstName, #birthMiddleName, #birthLastName, #usedFirstName, #usedMiddleName, #usedLastName{
+    line-height: 3;
+    margin: 0px;
+    width: 100%;
+}
+
+#borders{
+    float: left; /* fix for  buggy browsers */
+    
+    width: 22%;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:12px;
+    line-height: 3;
+    margin: 0px;
+    border-top: 4px solid black;
+}
+
+#borders2{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    width: 22%;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:12px;
+    line-height: 3;
+    margin: 0px;
+}
+
+#borders1Name strong{
+    font-size: 18px;
+}
+
+#borders1Name{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:14px;
+    width: 20%;
+    padding-left: 3px;
+    margin: 0px;
+    padding-bottom: 0px;
+    border-top: 4px solid black;
+}
+
+#borders1Birth{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:14px;
+    width: 20%;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    margin: 0px;
+}
+
+#borders1other{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    width: auto;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:14px;
+    line-height: 2;
+    width: 20%;
+    padding-left: 3px;
+    padding-bottom: 5px;
+    padding-top: 6px;
+    margin: 0px;
+}
+
+#borders1tag{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:14px;
+    width: 200px;
+    margin: 0px;
+}
+
+
+
+
+#colIndex2{
+    float: left; /* fix for  buggy browsers */
+    display: table-column;
+    width: 4%;
+    background-color: #ccc;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size: 24px;
+    text-align: center;
+    height: 46px;
+    margin: 0px;
+    line-height:45px;
+}
+
+#borders2tag{
+    float: left; /* fix for  buggy browsers */
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:18px;
+    width: 30%;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+#borders2field{
+    float: left; /* fix for  buggy browsers */
+    width: 56%;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:12px;
+    margin: 0px;
+}
+
+#PrevSSN1, #PrevSSN2, #PrevSSN3, #PrevSSN4, #PrevSSN5, #PrevSSN6, #PrevSSN7, #PrevSSN8, #PrevSSN9{
+    width: 8%;
+    height: 37px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+    margin-top: 2px;
+    border: 1px solid black;
+}
+
+#row3{
+    float: left;
+    width: 55%;
+    margin: 0px;
+}
+
+#colIndex3{
+    float: left; /* fix for  buggy browsers */
+    display: table-column;
+    width: 7.4%;
+    background-color: #ccc;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size: 24px;
+    text-align: center;
+    height: 63px;
+    margin: 0px;
+    line-height: 60px;
+}
+
+#borders3tag{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    border-left: 1px solid black;
+    font-size:17px;
+    width: 15%;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    margin: 0px;
+}
+
+#bordersPOB{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    border-bottom: 1px solid black;
+    font-size:12px;
+    width: 68.9%;
+    margin: 0px;
+}
+
+#fieldPOB{
+    line-height: 3;
+    width: 100%;
+    font-size: 12px;
+    margin: 0px;
+}
+
+#officeUse{
+    float: left; /* fix for  buggy browsers */
+    width: 6.5%;
+    background-color: #ccc;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size: 12px;
+    text-align: center;
+    height: 42px;
+    margin: 0px;
+    padding-left:5px;
+    padding-right: 5px;
+}
+
+#field3DNA{
+    display: table-cell;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:13px;
+    width: 35%;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    margin: 0px;
+}
+
+#field3City{
+    display: table-cell;
+    border-bottom: 1px solid black;
+    font-size:13px;
+    width: 20%;
+    padding-bottom: 1px;
+    margin: 0px;
+}
+
+#field3State{
+    display: table-cell;
+    border-bottom: 1px solid black;
+    font-size:13px;
+    width: 43%;
+    padding-bottom: 1px;
+}
+
+#field3FCI{
+    display: table-cell;
+    border-bottom: 1px solid black;
+    font-size:13px;
+    width: 5%;
+    padding-bottom: 1px;
+}
+
+#colIndex4{
+    float: left; /* fix for  buggy browsers */
+    display: table-column;
+    width: 4%;
+    background-color: #ccc;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 24px;
+    text-align: center;
+    height: 63px;
+    margin: 0px;
+    line-height: 60px;
+}
+
+#borders4DOB{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:17px;
+    width: 5.5%;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+
+#field4{
+    /* fix for  buggy browsers */
+    display: table-cell;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:12px;
+    width: 320px;
+}
+
+#field4MMDDYY{
+    float: left;
+    line-height: 3;
+    width: 100%;
+    font-size: 12px;
+}
+
+
+#borders4MMDDYY{
+    display: table-cell;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:13px;
+    width: 25%;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    float: left;
+    text-align: center;
+}
+
+
+
+#colIndex5{
+    float: left; /* fix for  buggy browsers */
+    display: table-column;
+    width: 4%;
+    background-color: #ccc;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size: 24px;
+    text-align: center;
+    height: 44px;
+    line-height:40px;
+}
+
+#borders5tag{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:13px;
+    width: 25%;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-top: 5px;
+}
+
+#borders5tag strong{
+    font-size: 18px;
+}
+
+#borders5field{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    width: 61.9%;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:12px;
+    line-height: 2;
+}
+
+#borders5field li{
+    list-style: none;
+    float: left;
+}
+
+#USCitizen{
+    font-size: 13px;
+    float: left;
+    height: 34px;
+    width: 100px;
+    padding-top: 10px;
+    padding-right: 50px;
+}
+
+#borders5LA{
+    float: left;
+}
+
+#LegalAlien{
+    float: right; /* fix for  buggy browsers */
+    display: table-cell;
+    width: 80px;
+    font-size: 13px;
+    height: 43px;
+    line-height: normal;
+    padding-right: 50px;
+}
+
+#borders5LNA{
+    float: left;
+}
+
+#LegalNotAllowed{
+    float: right; /* fix for  buggy browsers */
+    display: table-cell;
+    width: 150px;
+    font-size: 13px;
+    height: 43px;
+    line-height: normal;
+    padding-right: 50px;
+}
+
+#borders5OC{
+    float: left;
+}
+
+#OtherCitizen{
+    float: right; /* fix for  buggy browsers */
+    display: table-cell;
+    width: 100px;
+    font-size: 13px;
+    height: 43px;
+    line-height: normal;
+}
+
+
+#colIndex6{
+    float: left; /* fix for  buggy browsers */
+    display: table-column;
+    width: 4%;
+    background-color: #ccc;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size: 24px;
+    text-align: center;
+    height: 80px;
+    line-height:80px;
+}
+
+#borders6container{
+    float: left;
+    display: inline-block;
+    width:19%;
+    border-bottom: 1px solid black;
+
+}
+
+#borders6tag{
+    float: left; /* fix for  buggy browsers */
+    border-left: 1px solid black;
+    font-size:13px;
+    width: 100%;
+    padding-bottom: 6px;
+    padding-left: 2px;
+}
+
+#textContainer6{
+    float: left;
+    width: 70%;
+}
+
+#borders6tag strong{
+    font-size: 18px;
+}
+
+#yes6{
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    border-left: 1px solid black;
+}
+
+#no6{
+    float: left;
+    padding-left: 50px;
+    padding-bottom: 3px;
+}
+
+
+
+#borders7tag{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size:13px;
+    width: 180px;
+    padding-bottom: 28px;
+    padding-left: 2px;
+}
+
+#borders7tag strong{
+    font-size: 18px;
+}
+
+#field7races{
+    float: left;
+    display: inline-block;
+    width: 49.5%;
+    height: 79px;
+    border-bottom: 1px solid black;
+    padding-bottom:1px;
+}
+
+#racesContainer7{
+    float: left;
+    width: 70%;
+    padding-left: 30px;
+}
+
+#nativeHawaiian{
+    float: left;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    font-size: 13px;
+}
+
+#americanIndian{
+    float: left;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    font-size: 13px;
+}
+
+#otherPacific{
+    float: left;
+    padding-right: 10px;
+}
+
+#radio7OP{
+    float: left;
+}
+
+#container7OP{
+    float: right; /* fix for  buggy browsers */
+    display: table-cell;
+    width: 80px;
+    font-size: 13px;
+    height: 29px;
+    line-height: normal;
+}
+
+#alaska{
+    float: left;
+    padding-bottom: 3px;
+    padding-right: 54px;
+    font-size: 13px;
+}
+
+#black{
+    float: left;
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+
+#white{
+    float: left;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    font-size: 13px;
+}
+
+#asian{
+    float: left;
+    padding-right: 10px;
+    font-size: 13px;
+}
+
+
+
+#colIndex8{
+    float: left; /* fix for  buggy browsers */
+    display: table-column;
+    width: 4%;
+    background-color: #ccc;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 24px;
+    text-align: center;
+    height: 36px;
+}
+
+#borders8tag{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:18px;
+    width: 18.8%;
+    padding-left: 2px;
+    padding-top: 8px;
+    height: 28px;
+}
+
+#field8sex{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    width: 68%;
+    padding-top: 7px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:16px;
+    height: 29px;
+}
+
+#radio8male{
+    float: left;
+    padding-left: 50px;
+}
+
+#radio8female{
+    float: left;
+    padding-left: 150px;
+}
+
+
+#colIndex9{
+    float: left; /* fix for  buggy browsers */
+    display: table-column;
+    width: 4%;
+    background-color: #ccc;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 24px;
+    text-align: center;
+    height: 95px;
+    line-height:90px;
+}
+
+#borders9tagA{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:17px;
+    width: 18.8%;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-top: 5px;
+}
+
+#motherFirst, #motherMiddle, #motherLast{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    width: 22.3%;
+    font-size:13px;
+    height: 43px;
+    border-bottom: 1px solid black;
+}
+
+#borders9tagB{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:13px;
+    width: 380px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-top: 5px;
+}
+
+#borders9tagB strong{
+    font-size: 17px;
+}
+
+#borders9B{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    width: 57%;
+    border-bottom: 1px solid black;
+    font-size:12px;
+    line-height: 3;
+}
+
+#ParentSSN1, #ParentSSN2, #ParentSSN3, #ParentSSN4, #ParentSSN5, #ParentSSN6, #ParentSSN7, #ParentSSN8, #ParentSSN9{
+    width: 5%;
+    height: 35px;
+    margin-bottom: 4px;
+    border: 2px solid black;
+    margin-top: 2px;
+}
+
+#radioUnknown{
+    font-size: 18px;
+    padding-left: 30px;
+
+}
+
+
+
+
+#colIndex11{
+    float: left; /* fix for  buggy browsers */
+    display: table-column;
+    width: 4%;
+    background-color: #ccc;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 24px;
+    text-align: center;
+    height: 58px;
+    line-height:50px;
+}
+
+#borders11tag{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    border-left: 1px solid black;
+    font-size:18px;
+    width: 80%;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+#largeContainer11{
+    float: left;
+    width: 87.4%;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+#container11{
+    float: left;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+
+
+#colIndex12{
+    float: left; /* fix for  buggy browsers */
+    display: table-column;
+    width: 4%;
+    background-color: #ccc;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 24px;
+    text-align: center;
+    height: 53px;
+    line-height: 50px;
+}
+
+#borders12tag{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:15px;
+    width: 24%;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    height: 50px;
+}
+
+#field12{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    width: 63.3%;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid black;
+    font-size:16px;
+    height: 50px;
+}
+
+#textContainer12{
+    float: left;
+    width: 80%;
+}
+
+#field12First, #field12Middle, #field12Last{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    width: 32.5%;
+    font-size:13px;
+    height: 43px;
+    border-bottom: 1px solid black;
+}
+
+
+
+#colIndex13{
+    float: left; /* fix for  buggy browsers */
+    display: table-column;
+    width: 4%;
+    background-color: #ccc;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 24px;
+    text-align: center;
+    height: 53px;
+    line-height:50px;
+}
+
+#borders13tag{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:16px;
+    width: 50%;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    height: 50px;
+}
+
+#field13{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    margin-bottom: 0px;
+    font-size:16px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+#textContainer13{
+    float: left;
+    width: 50%;
+    font-size: 17px;
+}
+
+
+#container13{
+    /* fix for  buggy browsers */
+    float: left;
+    display: table-cell;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:12px;
+    width: 37.2%;
+}
+
+#field13MMDDYY{
+    float: left;
+    width: 85%;
+    font-size: 12px;
+    border-bottom: 1px solid black;
+    height: 30px;
+}
+
+
+#borders13MMDDYY{
+    display: table-cell;
+    font-size:13px;
+    padding-bottom: 1px;
+    float: left;
+    padding-left: 100px;
+}
+
+
+
+
+#colIndex14{
+    float: left; /* fix for  buggy browsers */
+    display: table-column;
+    width: 4%;
+    background-color: #ccc;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size: 24px;
+    text-align: center;
+    height: 56px;
+    line-height:50px;
+}
+
+#borders14ontainer{
+    float: left;
+    display: inline-block;
+    width:19%;
+    border: 1px solid black;
+
+}
+
+#borders14tag{
+    float: left; /* fix for  buggy browsers */
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size:18px;
+    width: 10%;
+    padding-bottom: 6px;
+    padding-left: 2px;
+    padding-top: 6px;
+}
+
+#textContainer14{
+    float: left;
+    width: 70%;
+}
+
+#field14{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+    font-size:16px;
+    height: 50px;
+    margin-left: 45px;
+}
+
+#container14{
+    /* fix for  buggy browsers */
+    float: left;
+    display: table-cell;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:12px;
+    width: 22%;
+}
+
+#field14MMDDYY{
+    float: left;
+    width: 85%;
+    font-size: 13px;
+    border-bottom: 1px solid black;
+    height: 30px;
+    padding-left: 30px;
+}
+
+
+#borders14MMDDYY{
+    display: table-cell;
+    font-size:13px;
+    padding-bottom: 1px;
+    float: left;
+    padding-left: 90px;
+}
+
+
+
+#colIndex15{
+    float: left; /* fix for  buggy browsers */
+    display: table-column;
+    width: 4%;
+    background-color: #ccc;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size: 24px;
+    text-align: center;
+    height: 56px;
+    line-height:50px;
+}
+
+#borders15tag{
+    float: left; /* fix for  buggy browsers */
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size:18px;
+    width: 13.7%;
+    padding-bottom: 6px;
+    padding-left: 1px;
+    padding-top: 6px;
+}
+
+#field15{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+    font-size:16px;
+    height: 50px;
+    margin-left: 5px;
+}
+
+#container15{
+    /* fix for  buggy browsers */
+    float: left;
+    display: table-cell;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:12px;
+    width: 37.3%;
+}
+
+#field15Area{
+    float: left;
+    width: 85%;
+    font-size: 13px;
+    height: 30px;
+    padding-left: 30px;
+}
+
+
+#borders15Area{
+    display: table-cell;
+    font-size:13px;
+    padding-bottom: 1px;
+    float: left;
+    padding-left: 50px;
+}
+
+
+
+#colIndex16{
+    float: left; /* fix for  buggy browsers */
+    display: table-column;
+    width: 4%;
+    background-color: #ccc;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size: 24px;
+    text-align: center;
+    height: 69px;
+    line-height:70px;
+}
+
+#borders16tag{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:13px;
+    width: 20%;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-top: 5px;
+    height: 62px;
+}
+
+#borders16tag strong{
+    font-size: 18px;
+}
+
+#street16{
+    float: left;
+    font-size: 13px;
+    border-bottom: 1px solid black;
+    width: 67.3%;
+    border-left: 1px solid black;
+    padding-left: 2px;
+}
+
+#field16street{
+    float: left;
+    width: 80%;
+}
+
+#cityStateZip16{
+    float: left;
+    font-size: 13px;
+    border-bottom: 1px solid black;
+    width: 67.3%;
+    border-left: 1px solid black;
+    padding-left: 2px;
+}
+
+#city16, #state16{
+    float: left;
+    padding-right: 150px;
+    font-size: 13px;
+}
+
+#zipCode16{
+    float: left;
+    font-size: 13px;
+    padding-right: 300px;
+}
+
+#field16city, #field16state{
+    float: left;
+    width: 15%;
+    margin-right: 38px;
+}
+
+#field16zip{
+    float: left;
+    width: 15%;
+    margin-left: 90px;
+}
+
+
+
+#colIndex17{
+    float: left; /* fix for  buggy browsers */
+    display: table-column;
+    width: 4%;
+    background-color: #ccc;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+    font-size: 24px;
+    text-align: center;
+    height: 90px;
+    line-height:90px;
+}
+
+#borders17tag{
+    float: left; /* fix for  buggy browsers */
+    display: table-cell;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    font-size:14px;
+    width: 87.5%;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    height: 30px;
+}
+
+#signature17{
+    float: left;
+    font-size: 18px;
+    width: 35%;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+    padding-top: 0px;
+    padding-left: 2px;
+    height:56px;
+}
+
+#eSignature{
+    float: left;
+    width: 90%;
+    height: 25px;
+}
+
+#colIndex18{
+    float: left; /* fix for  buggy browsers */
+    display: table-column;
+    width: 4%;
+    background-color: #ccc;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+    font-size: 24px;
+    text-align: center;
+    height: 56px;
+    line-height:50px;
+}
+
+#borders18tag{
+    float: left;
+    width: 48.6%;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+    font-size: 20px;
+}
+
+#borders18tag li{
+    list-style: none;
+    float: left;
+    font-size: 12px;
+}
+
+#self18, #natural18container, #legal18{
+    float: left;
+    width: 30%;
+    line-height: normal;
+}
+
+#field18{
+    float: left;
+}
+
+#specify18{
+    float: left;
+    font-size: 13px;
+    padding-left:10px;
+    padding-top: 5px;
+}
+
+#specifyField{
+    float: right;
+    border-bottom: 1px solid black;
+    margin-left: 5px;
+}
+
+#DNWBTL19{
+    float: left;
+    font-size: 16px;
+    border-left: 3px solid black;
+    border-bottom: 1px solid black;
+    width: 91.6%;
+    border-right: 3px solid black;
+}
+
+#NPN{
+    float: left;
+    font-size: 14px;
+    border-left: 3px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    width: 32%;
+}
+
+#DOC{
+    float: left;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    width: 12%;
+}
+
+#NTI{
+    float: left;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    width: 12%;
+}
+
+#CAN{
+    float: left;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    width: 21%;
+}
+
+#ITV{
+    float: left;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    width: 14.3%;
+    border-right: 3px solid black;
+}
+
+
+#PBC{
+    float: left;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    border-left: 3px solid black;
+    width: 11.5%;
+}
+
+#EVI{
+    float: left;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    width: 11.5%;
+}
+
+#EVA{
+    float: left;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    width: 11%;
+}
+
+#EVC{
+    float: left;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    width: 11%;
+}
+
+#PRA{
+    float: left;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    width: 11%;
+}
+
+#NWR{
+    float: left;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    width: 11.8%;
+}
+
+#DNR{
+    float: left;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    width: 11.8%;
+}
+
+#UNIT{
+    float: left;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    width: 11.5%;
+    border-right: 3px solid black;
+}
+
+#evidence{
+    float: left;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    border-left: 3px solid black;
+    width: 56%;
+    height: 99px;
+    border-bottom: 3px solid black;
+}
+
+#signature19{
+    float: left;
+    font-size: 12px;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+    width: 35.2%;
+    height: 65px;
+    border-right: 3px solid black;
+}
+
+#signatureDate19{
+    float: left;
+    font-size: 13px;
+    width: 98%;
+
+
+}
+
+#date1{
+    float: left;
+    font-size: 13px;
+    padding-left: 350px;
+}
+
+#signature2{
+    float: left;
+    font-size: 12px;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+    width: 35.2%;
+    height: 35px;
+    border-right: 3px solid black;
+}
+
+#DCL{
+    float: left;
+    font-size: 13px;
+    padding-right: 324px;
+}
+
+#date2{
+    float: left;
+    font-size: 13px;
+}
+
+
+
+
+#lastSub{
+    float: left;
+    font-size: 13px;
+    padding-right: 120px;
+    height: 60px;
+}
+
+
+
+
+#submitBtn{
+    margin-left: 500px;
+    margin-bottom: 50px;
+}
